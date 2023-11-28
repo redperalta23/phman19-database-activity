@@ -1,0 +1,9 @@
+CREATE TABLE Courses (
+CourseID INT NOT NULL AUTO_INCREMENT,
+StudentID INT NOT NULL,
+CourseName VARCHAR(100),
+Credits INT,
+TeacherID INT,
+DepartmentID INT,
+PRIMARY KEY (CourseID)
+);
